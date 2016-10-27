@@ -1,0 +1,53 @@
+body{
+	background-color: #333;
+	font-family: $base-FontFamily;
+}
+
+.alignObject {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+ 
+.button{
+	border-radius: $border-radius;
+	background-color:$button-background;
+}
+
+input{
+	background: transparent none repeat scroll 0 0 !important;
+	border-color: #ddd;
+	border-image: none !important;
+	border-style: none none solid !important;
+	border-width: medium medium 0.1px !important;
+	box-shadow: none !important;
+	line-height: normal;
+}
+.error{
+	border-color:red; 
+}
+
+::-webkit-input-placeholder {
+		color: #fff!important;
+		opacity: 0.04;
+		text-shadow: 3px 2px 0 #000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff!important;
+   opacity: 0.04;
+   text-shadow: 3px 2px 0 #000;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff!important;
+   opacity: 0.04;
+   text-shadow: 3px 2px 0 #000;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff!important;
+   opacity: 0.04;
+   text-shadow: 3px 2px 0 #000;  
+}

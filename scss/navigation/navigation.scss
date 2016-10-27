@@ -1,0 +1,26 @@
+#mainNav{
+	padding: 0;
+
+	ul{
+		list-style: none;
+		padding:0;
+		margin:0;
+		width:100%;
+	
+		.button {
+			background-color: #eee;
+			border-radius: 0;
+			border-right: 18px none;
+			color: #333;
+			margin: 0 0 3px -2px;
+			overflow: hidden;
+			width: 100%;
+			text-transform: capitalize;
+		}
+		.button.active, .button:hover {
+			background: #333 none repeat scroll 0 0;
+			color: #eee;
+		}
+	}
+}	
+

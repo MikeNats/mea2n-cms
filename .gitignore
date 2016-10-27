@@ -1,0 +1,10 @@
+# Dependency directory
+node_modules
+npm-debug.log
+.DS_Store
+
+# IDEs
+.idea/
+
+# Project Specific
+app

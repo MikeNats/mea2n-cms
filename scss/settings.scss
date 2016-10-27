@@ -1,0 +1,30 @@
+$grid-column-count: 16;
+$primary-color: #8DC641;
+$button-background: #2199e8;  
+$button-background-hover: scale-color($button-background, $lightness: -15%);
+$border-radius: 5px;
+$base-FontFamily: 'Open Sans', sans-serif;
+$secondary-FontFamily: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+
+
+@mixin transition($timing:ease , $duration:0.6s){ 
+	transition-timing-function:$timing;
+	-moz-transition-timing-function: $timing; 
+	-webkit-transition-timing-function: $timing; 
+	-o-transition-timing-function:$timing; 
+	transition-duration: $duration;
+	-moz-transition-duration:  $duration; 
+	-webkit-transition-duration: $duration; 
+	-o-transition-duration:  $duration;  
+} 
+ 
+@mixin transitionImportant($timing:ease , $duration:0.6s){
+	transition-timing-function: $timing!important;
+	-moz-transition-timing-function:$timing!important; 
+	-webkit-transition-timing-function: $timing!important; 
+	-o-transition-timing-function: $timing!important; 
+	transition-duration:  $duration!important;
+	-moz-transition-duration:  $duration!important; 
+	-webkit-transition-duration: $duration!important;
+	-o-transition-duration: $duration!important; 
+}
